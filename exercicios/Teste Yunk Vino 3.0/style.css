@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    background-image: linear-gradient(to right, #A8243C, #6B3871, #D8416A);
+}
+h1 {
+   background-color: #5f0101;
+   border-radius: 20px;
+   box-shadow: 2px 3px 15px;
+   width: 700px;
+   padding: 25px;
+   margin: auto;
+   text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+div {
+ 
+   padding: 10px;
+   margin: auto;
+   text-align: center;
+}
+
+.ponto {
+    text-align: center;
+}
+
