@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="*">Inicio</a></li>
+                <li><a href="*">Menu</a></li>
+                <li><a href="*">Cardápio</a></li>
+                <li><a href="*">Horários</a></li>
+                <li><a href="*">Localização</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, temporibus! Animi deleniti et, voluptates quia sint ut culpa! Atque omnis repudiandae consectetur repellat quis explicabo a vero porro! Placeat, vero! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda necessitatibus praesentium maiores esse. Aliquid sit facilis consequatur. Ipsam blanditiis porro tempora incidunt sit sed consequatur ab. Itaque voluptatum totam dolorum!</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quasi nostrum repudiandae. Esse, deserunt accusamus cupiditate vero autem obcaecati, saepe excepturi hic iste expedita velit perspiciatis quae sed sapiente harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, distinctio quisquam, temporibus reiciendis cum nam impedit, aspernatur quidem suscipit debitis aliquam? Inventore voluptas alias temporibus fugit atque, qui neque laudantium?</p>
+            
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis repudiandae officia eius ab sapiente, quibusdam laboriosam dolore? Aliquam dolor fugiat cum delectus ducimus nulla ab molestias magnam ex, veniam incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aperiam eaque nostrum hic animi quos ipsam quibusdam illo quod reprehenderit alias cum necessitatibus, vel in illum soluta perferendis numquam dolores?</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            var itens = document.getElementById('itens')
+
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
